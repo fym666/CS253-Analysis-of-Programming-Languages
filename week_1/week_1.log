@@ -1,0 +1,37 @@
+Script started on 2023-04-09 02:01:53+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="78" LINES="51"]
+\[\e[33m\] \[\e[0m\]ls -l
+total 4
+-rw-r--r-- 1 runner runner 2636 Apr  9 02:00 week_1.cpp
+-rw-r--r-- 1 runner runner    0 Apr  9 02:01 week_1.log
+\[\e[33m\] \[\e[0m\]g++ week_1.cpp week    -o week_1
+\[\e[33m\] \[\e[0m\]^[[A    ./week_1 ../pride-and-prejucide     udice.txt
+mr  -  786
+elizabeth  -  635
+very  -  488
+darcy  -  418
+such  -  395
+mrs  -  343
+much  -  329
+more  -  327
+bennet  -  323
+bingley  -  306
+jane  -  295
+miss  -  283
+one  -  275
+know  -  239
+before  -  229
+herself  -  227
+though  -  226
+well  -  224
+never  -  220
+sister  -  218
+soon  -  216
+think  -  211
+now  -  209
+time  -  203
+good  -  201
+\[\e[33m\] \[\e[0m\]./week_1 ../pride-and-pref judice.txt > output.txt
+\[\e[33m\] \[\e[0m\]diff out. put.txt ../test.txt
+\[\e[33m\] \[\e[0m\]exit
+
+Script done on 2023-04-09 02:03:55+00:00 [COMMAND_EXIT_CODE="0"]

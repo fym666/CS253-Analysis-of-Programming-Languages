@@ -4,6 +4,8 @@ cd week_1
 ```
 Compile and run the program with the following commands
 ```
-
+g++ week_1.cpp -o week_1
+./week_1 ../pride-and-prejudice.txt
 ```
-README file with the exact instructions for how to run your program, including what folder to look at. The simplest strategy is to write down the exact  command line commands that the reviewer needs to type.
+- The source file is week_1.cpp
+- The proof that the program ran successfully and obtained the correct output has been saved in the log file *week_1.log* under the directory *week_1*.
