@@ -90,8 +90,7 @@ int main(int argc, char* argv[]) {
                 } else {
                     word += tolower(c);
                 }
-            }
-        
+        }        
     }
     input_file.close();
 
