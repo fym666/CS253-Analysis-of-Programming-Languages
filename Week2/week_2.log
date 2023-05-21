@@ -1,0 +1,23 @@
+Script started on 2023-04-16 08:52:53+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="64" LINES="51"]
+\[\033[01;34m\]\w\[\033[00m\]$ ls -l
+total 16
+-rw-r--r-- 1 runner runner 2046 Apr 16 04:18 Five.cpp
+-rw-r--r-- 1 runner runner 3574 Apr 16 05:54 Four.cpp
+-rw-r--r-- 1 runner runner 1216 Apr 16 07:43 Seven.cpp
+-rw-r--r-- 1 runner runner 1904 Apr 16 08:50 Six.rs
+-rw-r--r-- 1 runner runner    0 Apr 16 08:52 week_2.log
+\[\033[01;34m\]\w\[\033[00m\]$ g++ Five.cpp -o five
+\[\033[01;34m\]\w\[\033[00m\]$ ./five ../pr* > output5.txt
+\[\033[01;34m\]\w\[\033[00m\]$ diff output5.txt ../test.txt
+\[\033[01;34m\]\w\[\033[00m\]$ g++ Four.cpp -o four
+\[\033[01;34m\]\w\[\033[00m\]$ ./four ../pr* > output4.txt
+\[\033[01;34m\]\w\[\033[00m\]$ diff output4.txt ../test.txt
+\[\033[01;34m\]\w\[\033[00m\]$ g++ Seven.cpp -o seven
+\[\033[01;34m\]\w\[\033[00m\]$ ./seven ../pr* >output7.txt
+\[\033[01;34m\]\w\[\033[00m\]$ diff output7.txt ../test.txt
+\[\033[01;34m\]\w\[\033[00m\]$ rustc Six.rx sr             rustc Six.rs -o six
+\[\033[01;34m\]\w\[\033[00m\]$ ./six ../pr* > output6.txt
+\[\033[01;34m\]\w\[\033[00m\]$ diff output6.txt ../test.txt
+\[\033[01;34m\]\w\[\033[00m\]$ exit
+
+Script done on 2023-04-16 08:57:30+00:00 [COMMAND_EXIT_CODE="0"]

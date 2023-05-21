@@ -1,0 +1,33 @@
+Script started on 2023-04-30 05:02:58+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="95" LINES="23"]
+\[\033[01;34m\]\w\[\033[00m\]$ cd Week4
+\[\033[01;34m\]\w\[\033[00m\]$ ls -l
+total 16
+-rw-r--r-- 1 runner runner  783 Apr 30 03:18 check15.py
+-rw-r--r-- 1 runner runner 3719 Apr 30 04:46 Fifteen.js
+-rw-r--r-- 1 runner runner 2006 Apr 29 17:58 Thirteen.js
+-rw-r--r-- 1 runner runner 3073 Apr 29 16:38 Twelve.js
+-rw-r--r-- 1 runner runner    0 Apr 30 05:02 week_4.log
+\[\033[01;34m\]\w\[\033[00m\]$ node Twelve.js ../pr* > output12.txt
+\[\033[01;34m\]\w\[\033[00m\]$ diff output12.txt ../test.txt
+\[\033[01;34m\]\w\[\033[00m\]$ node Thirteen.js ../pr* > output13.txt
+\[\033[01;34m\]\w\[\033[00m\]$ diff output13.txt ../test.txt
+\[\033[01;34m\]\w\[\033[00m\]$ node Fifteen.js ../pr* Z > output15.txt
+\[\033[01;34m\]\w\[\033[00m\]$ diff output15.txt ../text  st.txt
+26,27d25
+< 
+< Number of non-stop words with letter z  =  837
+\[\033[01;34m\]\w\[\033[00m\]$ python check15.py ../pr*
+Words with z: 837
+\[\033[01;34m\]\w\[\033[00m\]$ ls -l
+total 28
+-rw-r--r-- 1 runner runner  783 Apr 30 03:18 check15.py
+-rw-r--r-- 1 runner runner 3719 Apr 30 04:46 Fifteen.js
+-rw-r--r-- 1 runner runner  342 Apr 30 05:03 output12.txt
+-rw-r--r-- 1 runner runner  342 Apr 30 05:04 output13.txt
+-rw-r--r-- 1 runner runner  390 Apr 30 05:05 output15.txt
+-rw-r--r-- 1 runner runner 2006 Apr 29 17:58 Thirteen.js
+-rw-r--r-- 1 runner runner 3073 Apr 29 16:38 Twelve.js
+-rw-r--r-- 1 runner runner    0 Apr 30 05:02 week_4.log
+\[\033[01;34m\]\w\[\033[00m\]$ exit
+
+Script done on 2023-04-30 05:06:35+00:00 [COMMAND_EXIT_CODE="0"]
