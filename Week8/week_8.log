@@ -1,0 +1,117 @@
+Script started on 2023-05-28 06:57:02+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="101" LINES="51"]
+\[\033[01;34m\]\w\[\033[00m\]$ cd Week8
+\[\033[01;34m\]\w\[\033[00m\]$ ls  rm *class         ls -l
+total 108
+-rw------- 1 runner runner 1931 May 28 06:56  ActiveTFObject.class
+-rw------- 1 runner runner 1937 May 28 06:56  ActiveWFObject.class
+-rw------- 1 runner runner 2796 May 28 06:56  DataStorageManager.class
+-rw------- 1 runner runner  345 May 28 06:56  Message.class
+-rw------- 1 runner runner  342 May 28 06:56  output29.txt
+-rw------- 1 runner runner  342 May 28 06:56  output30.txt
+-rw------- 1 runner runner  342 May 28 06:56  output.txt
+-rw------- 1 runner runner  906 May 28 06:56  README.md
+-rw------- 1 runner runner 2410 May 28 06:56  StopWordManager.class
+-rw------- 1 runner runner 1133 May 28 06:56 'Thirty$process_words.class'
+-rw------- 1 runner runner 1076 May 28 06:56 'Thirty$ProcessWords.class'
+-rw------- 1 runner runner 1029 May 28 06:56 'Thirty$Worker.class'
+-rw------- 1 runner runner 3918 May 28 06:56  Thirty.class
+-rw------- 1 runner runner 2867 May 28 06:56  Thirty.java
+-rw------- 1 runner runner  696 May 28 06:56 'ThirtyTwo$Pair.class'
+-rw------- 1 runner runner  394 May 28 06:56 'ThirtyTwo$Tuple.class'
+-rw------- 1 runner runner 7132 May 28 06:56  ThirtyTwo.class
+-rw------- 1 runner runner 4498 May 28 06:56  ThirtyTwo.java
+-rw------- 1 runner runner  457 May 28 06:56  Tuple.class
+-rw------- 1 runner runner  841 May 28 06:56  TwentyNine.class
+-rw------- 1 runner runner 6667 May 28 06:56  TwentyNine.java
+-rw-r--r-- 1 runner runner    0 May 28 06:57  week_8.log
+-rw------- 1 runner runner 2419 May 28 06:56  WordFrequencyController.class
+-rw------- 1 runner runner 1116 May 28 06:56 'WordFrequencyManager$1.class'
+-rw------- 1 runner runner 1888 May 28 06:56  WordFrequencyManager.class
+\[\033[01;34m\]\w\[\033[00m\]$ javac TwentyNine.java 
+\[\033[01;34m\]\w\[\033[00m\]$ java TwentyNine ../pride-and-prejudice.txt > output29.txt
+\[\033[01;34m\]\w\[\033[00m\]$ diff out	put29.txt ../test	  ^[[3~^[[3~^[[3~           ^C
+\[\033[01;34m\]\w\[\033[00m\]$ diff output29.txt ../text  st.txt
+\[\033[01;34m\]\w\[\033[00m\]$ javac Thirty.java
+\[\033[01;34m\]\w\[\033[00m\]$ java Thirty ../pride-and-prejudice.txt
+mr  -  786
+elizabeth  -  635
+very  -  488
+darcy  -  418
+such  -  395
+mrs  -  343
+much  -  329
+more  -  327
+bennet  -  323
+bingley  -  306
+jane  -  295
+miss  -  283
+one  -  275
+know  -  239
+before  -  229
+herself  -  227
+though  -  226
+well  -  224
+never  -  220
+sister  -  218
+soon  -  216
+think  -  211
+now  -  209
+time  -  203
+good  -  201
+\[\033[01;34m\]\w\[\033[00m\]$ javac ThirtyTwo.java
+\[\033[01;34m\]\w\[\033[00m\]$ java ThirtyTwo ../pride-and-prejudice.txt
+mr  -  786
+elizabeth  -  635
+very  -  488
+darcy  -  418
+such  -  395
+mrs  -  343
+much  -  329
+more  -  327
+bennet  -  323
+bingley  -  306
+jane  -  295
+miss  -  283
+one  -  275
+know  -  239
+before  -  229
+herself  -  227
+though  -  226
+well  -  224
+never  -  220
+sister  -  218
+soon  -  216
+think  -  211
+now  -  209
+time  -  203
+good  -  201
+\[\033[01;34m\]\w\[\033[00m\]$ exit    ls-l   -l
+total 108
+-rw------- 1 runner runner 1931 May 28 06:57  ActiveTFObject.class
+-rw------- 1 runner runner 1937 May 28 06:56  ActiveWFObject.class
+-rw------- 1 runner runner 2796 May 28 06:57  DataStorageManager.class
+-rw------- 1 runner runner  345 May 28 06:57  Message.class
+-rw------- 1 runner runner  342 May 28 06:57  output29.txt
+-rw------- 1 runner runner  342 May 28 06:56  output30.txt
+-rw------- 1 runner runner  342 May 28 06:56  output.txt
+-rw------- 1 runner runner  906 May 28 06:56  README.md
+-rw------- 1 runner runner 2410 May 28 06:57  StopWordManager.class
+-rw------- 1 runner runner 1133 May 28 06:58 'Thirty$process_words.class'
+-rw------- 1 runner runner 1076 May 28 06:56 'Thirty$ProcessWords.class'
+-rw------- 1 runner runner 1029 May 28 06:56 'Thirty$Worker.class'
+-rw------- 1 runner runner 3918 May 28 06:58  Thirty.class
+-rw------- 1 runner runner 2867 May 28 06:56  Thirty.java
+-rw------- 1 runner runner  696 May 28 06:58 'ThirtyTwo$Pair.class'
+-rw------- 1 runner runner  394 May 28 06:56 'ThirtyTwo$Tuple.class'
+-rw------- 1 runner runner 7132 May 28 06:58  ThirtyTwo.class
+-rw------- 1 runner runner 4498 May 28 06:56  ThirtyTwo.java
+-rw------- 1 runner runner  457 May 28 06:56  Tuple.class
+-rw------- 1 runner runner  841 May 28 06:57  TwentyNine.class
+-rw------- 1 runner runner 6667 May 28 06:56  TwentyNine.java
+-rw-r--r-- 1 runner runner    0 May 28 06:57  week_8.log
+-rw------- 1 runner runner 2419 May 28 06:57  WordFrequencyController.class
+-rw------- 1 runner runner 1116 May 28 06:56 'WordFrequencyManager$1.class'
+-rw------- 1 runner runner 1888 May 28 06:57  WordFrequencyManager.class
+\[\033[01;34m\]\w\[\033[00m\]$ exit
+
+Script done on 2023-05-28 06:59:08+00:00 [COMMAND_EXIT_CODE="0"]

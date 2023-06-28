@@ -20,6 +20,8 @@
     pkgs.python310Full
     pkgs.replitPackages.prybar-python310
     pkgs.replitPackages.stderred
+    pkgs.stdenv.cc.cc.lib
+    pkgs.zlib
     pkgs.jq.bin
     pkgs.dotnet-sdk
     pkgs.omnisharp-roslyn
